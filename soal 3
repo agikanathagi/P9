@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int Angka;
+    int Hasil=1;
+
+    cout<<"Masukkinn Angka : ";
+    cin>>Angka;
+    cout<<endl;
+
+    while(Angka>=1){
+        Hasil=Hasil*Angka;
+        cout<<Angka<<"!x";
+        if(Angka==1){
+             cout<<Angka<<"!";
+        }
+        Angka--;
+    }
+    cout<<" = "<<Hasil<<endl;
+
+return 0;
+}
