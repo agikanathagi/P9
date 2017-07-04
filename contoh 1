@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+ int a,b,c;
+ int Tinggi;
+ cout<<"Masukan tinggi segitiga : ";
+ cin>>Tinggi;
+
+ for(a=Tinggi;a>=0;a--){
+        for(b=a;b>=0;b--){
+            cout<<" ";
+        }
+        for(c=1;c<=Tinggi-a;c++){
+            cout<<"*";
+        }
+        for(c=1;cTinggi-a;c++){
+            cout<<"*";
+        }
+    cout<<endl;
+    }
+}
