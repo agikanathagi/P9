@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int Angka,Pangkat;
+    int Hasil=1;
+    int i=1;
+
+    cout<<"Masukan Angka   : ";
+    cin>>Angka;
+    cout<<"Masukan Pangkat : ";
+    cin>>Pangkat;
+
+    //pake while
+    while(i<=pangkat){
+        Hasil=Hasil*Angka;
+        i++;
+    }
+
+
+    cout<<endl<<Angka<<"^"<<Pangkat<<"= "<<Hasil<<endl;
+
+return 0;
+}
