@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int Level,i,j;
+
+    cout<<"Masukkin Level : ";
+    cin>>Level;
+    for(i=Level;i>=1;i--){
+        for(j=i;j>=1;j--){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+return 0;
+}
