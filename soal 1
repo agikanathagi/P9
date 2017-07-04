@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int i=1;
+
+    //pake while
+    while(i<=3){
+        cout<<"C++"<<endl;
+        i++;
+    }
+    //pake do-while
+    do{
+        cout<<"C++"<<endl;
+        i++;
+    }while(i<=3);
+
+return 0;
+}
